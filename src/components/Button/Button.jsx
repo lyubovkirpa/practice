@@ -1,5 +1,7 @@
-
-
 export const Button = ({ text, clickHendler }) => {
-  return <button type="button">{text}</button>;
+  return (
+    <button type="button" onClick={clickHendler}>
+      {text}
+    </button>
+  );
 };
